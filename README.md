@@ -9,8 +9,15 @@ Planned features:
 
 
 ## Usage
-Requires environment variable GOOGLE_CLOUD_PROJECT
+With environment variable GOOGLE_CLOUD_PROJECT set:
+```bash
+go run pivot_acl.go
+```
 
+Without environment variable GOOGLE_CLOUD_PROJECT set (or if you quickly want to inspect another project):
+```bash
+go run pivot_acl.go -project_id YOUR_PROJECT
+```
 
 ## License
 Copyright 2019 Hayo van Loon
